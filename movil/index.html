@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><title>AXQUIOTE — Cocina de Origen</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-fixed-dim": "#ffb866", "error": "#ba1a1a", "inverse-surface": "#32302d", "on-secondary-fixed": "#161e0c", "surface": "#fff8f3", "surface-tint": "#9b4427", "primary-container": "#a44a2d", "inverse-primary": "#ffb59e", "primary-fixed-dim": "#ffb59e", "inverse-on-surface": "#f6f0ea", "secondary-fixed": "#dce7c9", "on-primary": "#ffffff", "on-tertiary-fixed-variant": "#673d00", "tertiary-container": "#8f590a", "on-background": "#1d1b18", "secondary": "#58624a", "tertiary": "#6f4300", "surface-container-highest": "#e7e1dc", "secondary-fixed-dim": "#c0cbae", "error-container": "#ffdad6", "on-error": "#ffffff", "on-tertiary-container": "#ffdebc", "on-secondary-fixed-variant": "#404a34", "surface-container-lowest": "#ffffff", "background": "#fff8f3", "on-surface-variant": "#56423d", "surface-bright": "#fff8f3", "outline-variant": "#dcc1b9", "surface-dim": "#dfd9d4", "on-tertiary-fixed": "#2b1700", "surface-container-high": "#ede7e2", "on-error-container": "#93000a", "on-tertiary": "#ffffff", "secondary-container": "#dce7c9", "outline": "#89726c", "on-primary-container": "#ffdbd1", "tertiary-fixed": "#ffddba", "primary-fixed": "#ffdbd0", "on-secondary": "#ffffff", "surface-container": "#f3ede7", "on-secondary-container": "#5e6850", "surface-container-low": "#f9f2ed", "primary": "#853318", "surface-variant": "#e7e1dc", "on-primary-fixed": "#3a0b00", "on-surface": "#1d1b18", "on-primary-fixed-variant": "#7c2d12" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-2xl": "4rem", "space-3xl": "6rem", "gutter": "1.5rem", "margin": "4rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "space-xl": "2.5rem" }, fontFamily: { "headline-md": ["EB Garamond"], "display-lg": ["EB Garamond"], "headline-lg-mobile": ["EB Garamond"], "headline-sm": ["EB Garamond"], "headline-lg": ["EB Garamond"], "label-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-lg-mobile": ["EB Garamond"] }, fontSize: { "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "500" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-md": ["11px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "600" }], "display-lg-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }] } } } }</script><style>@layer base { html, body { margin: 0; padding: 0; width: 100%; min-height: 100%; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } } ::-webkit-scrollbar { display: none; }</style></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col pt-safe pb-safe"><main class="flex-1 flex flex-col relative w-full bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- 1. HERO SECTION -->
+<section class="flex flex-col px-5 pt-4 pb-10 space-y-6">
+<div class="flex flex-col space-y-2">
+<div class="inline-flex items-center gap-2 self-start py-1 px-2.5 rounded-full bg-surface-container-high text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Cocina de Origen Contemporánea · Sabinos 900</span>
+</div>
+<h1 class="font-display-lg-mobile text-display-lg-mobile text-on-surface leading-tight tracking-tight pt-1">
+        México se cocina desde el <em class="italic text-primary font-serif font-normal">producto</em>, el territorio y la <em class="italic text-primary font-serif font-normal">memoria</em>.
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed pt-1">
+        Una propuesta matutina en el corazón de la Colonia Reforma. El fuego silencioso, el maíz criollo de los Valles y la reinterpretación sobria del recetario oaxaqueño.
+      </p>
+</div>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+<a class="inline-flex items-center justify-center bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider px-6 py-3.5 rounded transition-colors active:bg-primary-container text-center" href="#experiencia">
+        Conoce nuestra propuesta
+      </a>
+<a class="inline-flex items-center justify-center font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary px-4 py-3 transition-colors text-center" href="#visitanos">
+        Visítanos <span class="ml-1.5 font-sans">→</span>
+</a>
+</div>
+<!-- Hero Visual Stack -->
+<div class="relative w-full pt-4 pb-6">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover object-center" data-alt="Close-up detail of Mexican culinary plating at Axquiote in Oaxaca, chef delicately dressing folded golden handmade heirloom tortilla dish with fresh herbs and vibrant pickled onions in soft morning warm restaurant lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0GSK7cbyf-EzprbPUual6puwFIwmk43Et_Ns2Qh2SZyPMeRk3El7nPkudLpcKcUTY4V4Csy6SDHnKKhxC-M9KBBpH3kRMvWJGLeQKSKKvkWquUXPnODGd0vMSpQ34h4_Al-qYdFB44OJxATfwVeN2z9SIfNt0fYwWP3rctgyePrlPNNPV9BXbA7YJqNHcstB4W6O42VIStMrlRadg3xNlf5f-vs2bNbf4GpFefh36RiuUBkD3Os_uGA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-primary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest bg-inverse-surface/60 backdrop-blur-sm px-2.5 py-1 rounded">Oficio de Cocina</span>
+<span class="font-headline-sm text-headline-sm italic"> Sabinos 900</span>
+</div>
+</div>
+<!-- Overlapping Floating Card -->
+<div class="absolute -bottom-2 right-2 w-7/12 aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high shadow-md p-1 bg-surface/90 backdrop-blur-sm">
+<img class="w-full h-full object-cover rounded" data-alt="Artisanal heirloom corn tostada crowned with cured fresh Pacific catch, avocado slices, delicate red radishes and coastal herbs on ceramic tableware with morning light in Oaxaca" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRE-H9-8fB4mrP1RjE8GZoNVPoguLT-TmbpYDpONl1EWjrR5XB1Re7F2Y_Dm8ia1biGdB0YORgMZCEYFeOONnGF7e328u-1gd3FJpLhVxkl-qonJCmFoZNQ7tkzRmJ5S2UdwEiYQd6y85bbsPraMPLoYawknpL8Vgvp5WuxOqoxZIltJA-QeqDp7I7LrWcJqgkbYtYrwt3Sq_ywXBTWoHqogQZvbUCFhZcxfha-eTy8HQX_tbyKX1pUA"/>
+</div>
+</div>
+<!-- Summary Strip -->
+<div class="grid grid-cols-3 gap-2 py-3 px-3 bg-surface-container-low rounded-lg text-center items-center divide-x divide-outline-variant/30">
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Ubicación</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface mt-0.5 truncate max-w-full">Reforma, Oax.</span>
+</div>
+<div class="flex flex-col items-center pl-2">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Servicio</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface mt-0.5">8:00 – 15:00</span>
+</div>
+<div class="flex flex-col items-center pl-2">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Dirección</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface mt-0.5 truncate max-w-full">Max Ramos</span>
+</div>
+</div>
+</section>
+<!-- 2. EL FUEGO, LA TÉCNICA Y EL EQUIPO -->
+<section class="flex flex-col px-5 py-12 bg-surface-container-low space-y-6">
+<div class="flex flex-col space-y-1.5">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-semibold">Capítulo I · Autoría y Colectivo</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">El Fuego, la Técnica y el Equipo</h2>
+<p class="font-body-sm text-body-sm text-secondary uppercase tracking-wider font-semibold">Bajo la dirección del Chef Max Ramos</p>
+</div>
+<!-- Team Photo -->
+<div class="flex flex-col space-y-2">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover object-[center_15%]" data-alt="Mexican Chef Max Ramos and culinary team smiling outside the warm terracotta adobe facade of Axquiote restaurant under soft ambient daylight in Oaxaca de Juarez" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzVGXQf_cUDaqp-fN2X7bh35Y6CJExgOsuvec2Ksw7jdOJnudXFSp4WP2o6uytJTWmEEy_aQYaZBBjHWEmTXwpI5Od53U_edCaecVmoPgUkLuwLZ_T01MqAcOd4mbiTkv3PGnIjE3AcL00vs0qU35iGyaimNBKmF40WS-fHWc8bR5JWISq4jlJC9XLzDEQj1QjPJQM9jcB6Kr8G87M9A8ZwJNv3aGlNqHIS-vHtFXSQVwpQIUgrPe0gA"/>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest text-center">
+        CHEF MAX RAMOS &amp; COLECTIVO — Fachada Sabinos 900
+      </p>
+</div>
+<!-- Editorial Quote -->
+<div class="p-5 bg-surface-container rounded-lg border-l-2 border-primary">
+<p class="font-headline-sm text-headline-sm italic text-on-surface leading-snug">
+        “Una nueva propuesta gastronómica en Oaxaca que parte de una idea clara: ingredientes locales, saberes reconocibles y una mirada contemporánea que encuentra en el origen el punto de partida.”
+      </p>
+</div>
+<!-- Concept Cards -->
+<div class="grid grid-cols-1 gap-3.5 pt-1">
+<div class="p-4 bg-surface rounded-lg space-y-1.5">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider">1. La Memoria Viva</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Revisitar los almuerzos ceremoniales de mercado y las recetas comunales de los valles con respeto absoluto por la trazabilidad del grano y la temporada.
+        </p>
+</div>
+<div class="p-4 bg-surface rounded-lg space-y-1.5">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider">2. El Saber del Oficio</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Cada doblada de comal, emulsión de asiento criollo y caldo de fondo demanda una templanza milimétrica frente al carbón y la leña.
+        </p>
+</div>
+</div>
+<!-- Chef Cooking Portrait Card -->
+<div class="relative w-full aspect-[16/10] rounded-lg overflow-hidden bg-surface-container mt-2">
+<img alt="Chef in kitchen at Axquiote" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSndhL2wI9nVvDPyJecPpBg3S2AD6inufS5aOa_imPyM07OyP1xjDLzYOCTpgEwXbZeCCYtcEfD73hBcoAq0o8ySWLBRAoiMeA_KY4gkx6fpf1P-bdF6_bMgPpYmURHyoNZ4FVvVV9x521XcceDRN44e0T4-u5Lla2EIt2hoj_n2ba0AEJuxwE67xJAZbqWskElYlggeHVmWhzP6touFfV5lCSDi_mS7wi1_XPETJmJbse91xy4mejEaaBoS0essm0xhQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 text-on-primary">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">Principio Rector</span>
+<p class="font-body-sm text-body-sm font-medium">Paciencia, Temperatura &amp; Trato Justo</p>
+</div>
+</div>
+</section>
+<!-- 3. EL AXQUIOTE (HERENCIA ETNOBOTÁNICA) -->
+<section class="flex flex-col px-5 py-12 space-y-6">
+<div class="flex flex-col space-y-1.5 text-center items-center">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-semibold">Etimología &amp; Herencia Ceremonial</span>
+<h2 class="font-headline-md text-headline-md text-on-surface max-w-xs">El Axquiote: El bejuco que sostiene la espuma de la celebración</h2>
+</div>
+<!-- Botanical Specimen Image -->
+<div class="flex flex-col space-y-2 items-center">
+<div class="w-full max-w-xs aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-high p-2">
+<img alt="Ficha etnobotánica Axquiote" class="w-full h-full object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3NZ1ge8BVgoBz505N3vLOzXvMjxHFJlAALqCymktZbmRIGzI6KEYS77rtXeQoHqdY2z3d_1DpanKO_S9R1wTW9v68UlVeowvDQ7KYdFrtUxviP9_6ZhQQjQ0fz0Z586S6afDv-8b8PP8kCy6rrmLpAh9AoBJX_aqfLtP8Az_Tjg9ZdmdRNkaXy11TEpKm7GzaeIt_LqlyjqVyTzZZ0f11Z0wnorFBzFBd344OkEgX3E8VinkSz73BfPHERl-c0dw-OjU"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">
+        FICHA ETNOBOTÁNICA N° 01 — HERBARIUM OAXACANA
+      </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+      El <strong class="text-on-surface font-semibold">axquiote</strong> es un bejuco silvestre endémico que habita las riveras húmedas entre la Cuenca del Papaloapan y los Valles Centrales. Macerado y batido con molinillo de madera en jícaras profundas, sus saponinas naturales actúan como el agente botánico que levanta y sostiene la icónica espuma blanca y perfumada del <em class="italic text-primary">Popo</em> ceremonial.
+    </p>
+<!-- Micro Fichas -->
+<div class="grid grid-cols-3 gap-2.5 pt-2">
+<div class="p-3 bg-surface-container rounded flex flex-col text-center">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Planta</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface mt-1">Bejuco Espumante</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Asquiote silvestre</span>
+</div>
+<div class="p-3 bg-surface-container rounded flex flex-col text-center">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Ritual</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface mt-1">El Popo Festivo</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Cacao y arroz</span>
+</div>
+<div class="p-3 bg-surface-container rounded flex flex-col text-center">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Sentido</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface mt-1">Generosidad</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Fiesta comunal</span>
+</div>
+</div>
+</section>
+<!-- 4. GALERÍA DE ORIGEN & ESPACIO -->
+<section class="flex flex-col px-5 py-12 bg-surface-container-low space-y-6">
+<div class="flex flex-col space-y-1.5">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-semibold">Capítulo II · Testimonio Gráfico</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Galería de Origen &amp; Espacio</h2>
+</div>
+<!-- Filter Pills (Scrollable) -->
+<div class="flex gap-2 overflow-x-auto pb-1 -mx-5 px-5 no-scrollbar" id="gallery-filters">
+<button class="gallery-filter-btn px-4 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap bg-primary text-on-primary" data-cat="all">
+        Todo el Acervo
+      </button>
+<button class="gallery-filter-btn px-4 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap bg-surface-container text-on-surface" data-cat="platos">
+        Platos Insignia
+      </button>
+<button class="gallery-filter-btn px-4 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap bg-surface-container text-on-surface" data-cat="espacio">
+        Atmósfera &amp; Luz
+      </button>
+<button class="gallery-filter-btn px-4 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap bg-surface-container text-on-surface" data-cat="bebidas">
+        Bebidas
+      </button>
+</div>
+<!-- Photo Grid -->
+<div class="grid grid-cols-2 gap-3" id="gallery-grid">
+<!-- 1. Ceviche / Tostada -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="platos">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover object-center" data-alt="Close up of fresh Oaxacan ceviche with thinly sliced radishes, fresh cilantro sprigs and creamy avocado on crisp corn tostada" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2mtw89QmkUZ0x8C8TETTncP1GT40xyMIwcZ-nKlzOBQixEg59AmmwQ5AGyWdcX4zWDHnE6nghNDLkLSlwg73dnqODg9jtn8Pidh-uy112Db5j9p5GlHeIom5B7k5Xe4Ter269k0ecMajznaLmy39uVqu-x-NzG07fJhXMqvSNRd5hCkmKhNqMsxaSgW7rZGGab41Ml_AXHiemDjAiRK9vsWrB51sPgvscm_nvEBVKw0HoplORcwoTtw"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Pesca del día curada</span>
+</div>
+<!-- 2. Popo Tradicional -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="bebidas">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Popo en jícara tradicional con espuma" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr5jU9TnCTKKNWzL9QTCuhwvOmVKZazEMeVwhufIL8CHzmD9AtWR_8Tl1rlIdLpbgx5cTn8zX35rhnIJO4ZiD-g_AoKubkjrJ4z0HFWZ4SBEC7nCSM8Hzem5vhBr-GKF8d25gCNed2RF7hUgSGie5sgrqXKCXsFq7d83cARFaPJNtpTzqlLBRRTrbxtVh7RFl3KVTsNKR2ztALRpWghEP-Vx_I1jr2cdmCNKXNvlg3ighNLC4TrzMDnZZshDNw6HqbB0o"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Popo en Jícara &amp; Fibra</span>
+</div>
+<!-- 3. Doblada de comal -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="platos">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Doblada de comal con jarro de salsa" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPAiYqG8gCflBikYR2CezKW9WDCW4b719E_MXmttYy1vSR1yFXwtAOY_kxJ1MN1g7bATBnEfruodgZ-EyUKQCpysrXIQZXrFut9_dR4LDgS7aWEze9Wz8gXiHwz77RFHI1UsdK0yjBLaSCmWQNNaw_C2e5Bj5jes_jTpw6JO1WEPgGcKoeIYL42HmrV1Ow9Kzc9StcWiCAP7j6fZELI2t1RhjjVVC5MPwJEyXzjCD_Fe889piJa7CARRy6rnkaPvOkWNU"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Dobladas al Comal</span>
+</div>
+<!-- 4. Tiradito -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="platos">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Tiradito en plato negro con brotes" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQbr1bSkRo8zJJEsIVcHbRvQFz8NU70K-t4mEYz7lyMbi3WvXKitmb1AtkA9mfzKCx-5j98gfi_HKCPwTxGiOwTewR4JQsBxBe0ZDa6FVaChD4BbwX2IJ_QNZnh_VHL5o4mxh07q0bc33-YWUGyy0pnMUh7BffB0DhN8pTuCszNu7wrvi5TNloLLMoyI3p-IKtyNNHIkwQVurf7wmD68z3cEMnEIvcnYbfNXz1TEzE_N5xe6mh1pabw25PF3iQeH8ub64"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Tiradito Axquiote</span>
+</div>
+<!-- 5. Pan Brioche -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="platos">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Pan brioche tostado con frutos rojos" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8Ua-ZRjT5Qme1X7V4zSXr4D-bsyib20R3h-QcRvrysqdzfyTzbQ0rt2k9NOW2I231FCiXkhYismVOmeRx5mktaHCby3cu07KIh1Sx9ElfZ4QQp7qKj-zvjMzlcyKzo0cexzjOvNAdgMP2CW5wgpWx72rsF6qO9rADU_VURPsnr1uByd8jBpAizamj-wtGlz0RqfiPWEoQCyhOKaIeim3luRA1tdy2yda3og3vGpUOuH6aHL8jWYeZ4QFRpzY0XzbFegA"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Brioche de la Casa</span>
+</div>
+<!-- 6. Salón y luz -->
+<div class="gallery-item flex flex-col space-y-1" data-cat="espacio">
+<div class="aspect-[3/4] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Salón interior con mesas de madera y luz matutina" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfcruWWUGXnAGuvVSxFlWVH8pbNyigZWhpdY8KGv1EHqOiTE3fI3FfsApd49Dfaof-dVvSuz40zj28nM3_1yZ1FacBsU7qvf2zahkOMviDqH2Kh0FrV70M6A_DhfEBfA3F_RuVhet7kZE4IpEKwNIL-JEg4hI0SBDQUwaulij0zOHNGHAwvtKbTyE7jYzdw8gS_umOBSGvqTwgwTPkW-reSfAEpXEgdzYHimGqQB1Hui4p-Nd89XNI73-bSgC3j8inNtQ"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Salón Sabinos 900</span>
+</div>
+<!-- 7. Comensales compartiendo (Full width on 2 cols) -->
+<div class="gallery-item col-span-2 flex flex-col space-y-1" data-cat="espacio">
+<div class="aspect-[16/9] rounded-lg overflow-hidden bg-surface-container">
+<img alt="Comensales disfrutando el almuerzo en Axquiote" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABnwCkFg_iQUCUndSKrGoaHcfSzyvOu10N1B-ZOAfwkPWrMFGTngygCndr4sFnoPA8jO41lv8yc23wol6PjeCqGknuOKKLCH64lPuZOjnNPTB2U1KOmajJSUmUxU4RsnnGmISxK4fvMfYtqb04vY1hNcej6RQwmR8wtdBM0COjXbW2tL1ItuzmfecFOjdG_dfw_aUBoshe_CkYyopBFLjs-TKz1PB52ahRvbFz4FagRslShHKsRRmFMU8tZfAzsxnXabI"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant text-center">La sobremesa matutina en Axquiote</span>
+</div>
+</div>
+</section>
+<!-- 5. LA EXPERIENCIA DEL ALMUERZO (MENÚ) -->
+<section class="flex flex-col px-5 py-12 space-y-6" id="experiencia">
+<div class="flex flex-col space-y-1.5">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-semibold">Servicio Matutino · 8:00 AM a 3:00 PM</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">La Experiencia del Almuerzo</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Estructurado en tres momentos cardinales para despertar el paladar con honestidad, técnica y productos de proximidad inmediata.
+      </p>
+</div>
+<!-- Menú Bloques -->
+<div class="flex flex-col space-y-4">
+<!-- Módulo 01 -->
+<div class="p-5 bg-surface-container rounded-lg space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">01 · Despertar del Valle</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Apertura Ritual</span>
+</div>
+<div class="space-y-3 pt-1">
+<div class="flex justify-between items-baseline gap-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Popo Ceremonial Tradicional</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cacao criollo, bejuco axquiote, arroz y canela batida al momento</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$85</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Café de Olla en Barro</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Granos de Pluma Hidalgo, piloncillo de caña y clavo</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$65</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Infusión de Hierbas del Huerto</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Poleo, cedrón silvestre y miel de abeja melipona</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$60</span>
+</div>
+</div>
+</div>
+<!-- Módulo 02 -->
+<div class="p-5 bg-surface-container rounded-lg space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">02 · Maíz &amp; Mar</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Platos de Fondo</span>
+</div>
+<div class="space-y-3 pt-1">
+<div class="flex justify-between items-baseline gap-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tostada de Pesca Curada</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Maíz zapalote chico, emulsión de chiles secos, aguacate criollo</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$195</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Ceviche de Huachinango</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Leche de tigre con pasilla oaxaqueño, rábanos y cilantro cimarrón</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$210</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tiradito Axquiote</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Atún aleta amarilla, aceite infusionado al humo y granada roja</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$225</span>
+</div>
+</div>
+</div>
+<!-- Módulo 03 -->
+<div class="p-5 bg-surface-container rounded-lg space-y-3">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">03 · Comal &amp; Dulzura</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Fuego &amp; Masa</span>
+</div>
+<div class="space-y-3 pt-1">
+<div class="flex justify-between items-baseline gap-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Dobladas de Asiento Criollo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Masa nixtamalizada en casa, quesillo de hebra y salsa de molcajete</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$165</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tostada Francesa en Brioche</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mantequilla de rancho, compota de frutos rojos y semilla de calabaza</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$175</span>
+</div>
+<div class="flex justify-between items-baseline gap-2 pt-2 border-t border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Huevos Rotos con Tasajo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tasajo curado en sal de mar, papas confitadas y frijol negro quebrado</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary whitespace-nowrap">$185</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-3 bg-surface-container-low rounded text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+        Menú sujeto a disponibilidad estacional de las parcelas aliadas. · Consultar opciones veganas y sin gluten con nuestro personal.
+      </p>
+</div>
+</section>
+<!-- 6. VISÍTANOS EN OAXACA & RESERVAS -->
+<section class="flex flex-col px-5 py-12 bg-surface-container-low space-y-8" id="visitanos">
+<div class="flex flex-col space-y-1.5">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-semibold">Encuentro &amp; Hospitalidad</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Visítanos en Oaxaca</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        La mesa matutina está servida de lunes a sábado.
+      </p>
+</div>
+<!-- Direct Info Cards -->
+<div class="grid grid-cols-1 gap-3">
+<div class="p-4 bg-surface rounded-lg flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">location_on</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Dirección</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Sabinos 900, Col. Reforma, 68050 Oaxaca de Juárez, Oax.</span>
+<a class="font-label-sm text-label-sm text-primary uppercase tracking-widest mt-1 inline-flex items-center gap-1 font-semibold" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+            Abrir en Google Maps ↗
+          </a>
+</div>
+</div>
+<div class="p-4 bg-surface rounded-lg flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">schedule</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Horario de Servicio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Lunes a Sábado: 8:00 AM – 3:00 PM</span>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Domingos: Cerrado por descanso de campo</span>
+</div>
+</div>
+<div class="p-4 bg-surface rounded-lg flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">call</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">Contacto Inmediato</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Tel &amp; WhatsApp: 951 313 1979</span>
+<div class="flex gap-3 mt-1.5">
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold" href="tel:9513131979">Llamar</a>
+<span class="text-outline-variant">·</span>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold" href="https://wa.me/529513131979" rel="noopener noreferrer" target="_blank">WhatsApp Directo</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Modalidad de Consumo Chips -->
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-3 py-1 bg-surface-container rounded-full font-label-sm text-label-sm text-secondary uppercase tracking-wider font-medium">Consumo en el lugar</span>
+<span class="px-3 py-1 bg-surface-container rounded-full font-label-sm text-label-sm text-secondary uppercase tracking-wider font-medium">Para llevar</span>
+<span class="px-3 py-1 bg-surface-container rounded-full font-label-sm text-label-sm text-secondary uppercase tracking-wider font-medium">Entrega local</span>
+</div>
+<!-- Booking Module Clean -->
+<div class="p-5 bg-surface rounded-xl space-y-4 shadow-sm">
+<div class="flex flex-col space-y-1">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold">Reservación de Mesa</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Asegura tu momento matutino en el salón.</p>
+</div>
+<form class="flex flex-col space-y-3.5" id="reservation-form" onsubmit="event.preventDefault(); showConfirmation();">
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Nombre y Apellido</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Ej. Ana Paula Morales" required="" type="text"/>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Teléfono / WhatsApp</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Ej. 951 123 4567" required="" type="tel"/>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Fecha</label>
+<input class="w-full px-3 py-2.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-high transition-colors" required="" type="date"/>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Horario</label>
+<select class="w-full px-3 py-2.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-high transition-colors" required="">
+<option value="">Selecciona</option>
+<option value="08:30">08:30 AM</option>
+<option value="09:30">09:30 AM</option>
+<option value="10:30">10:30 AM</option>
+<option value="11:30">11:30 AM</option>
+<option value="12:30">12:30 PM</option>
+<option value="13:30">01:30 PM</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Comensales</label>
+<select class="w-full px-3.5 py-2.5 rounded bg-surface-container font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-high transition-colors" required="">
+<option value="1">1 Persona</option>
+<option selected="" value="2">2 Personas</option>
+<option value="3">3 Personas</option>
+<option value="4">4 Personas</option>
+<option value="5">5 Personas</option>
+<option value="6">6 Personas (Grupo)</option>
+</select>
+</div>
+<div class="flex flex-col space-y-1">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Requerimientos o Alergias</label>
+<textarea class="w-full px-3.5 py-2 rounded bg-surface-container font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Notas sobre celiaquía, mesas con sombra, o celebración..." rows="2"></textarea>
+</div>
+<button class="w-full mt-2 bg-primary text-on-primary py-3.5 rounded font-label-lg text-label-lg uppercase tracking-wider active:bg-primary-container transition-colors" type="submit">
+          Solicitar Reservación de Mesa
+        </button>
+</form>
+<!-- Confirmation Toast Placeholder -->
+<div class="hidden p-4 bg-secondary-container text-on-secondary-container rounded text-center" id="confirmation-msg">
+<span class="font-label-md text-label-md uppercase tracking-wider font-bold">¡Solicitud recibida!</span>
+<p class="font-body-sm text-body-sm mt-0.5">Nos comunicaremos vía WhatsApp para confirmar la disponibilidad de tu mesa.</p>
+</div>
+</div>
+<!-- Social & Footnote -->
+<div class="flex flex-col items-center justify-center space-y-2 pt-4 pb-2 text-center">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold flex items-center gap-1.5" href="https://instagram.com/axquiote" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+        Instagram @axquiote
+      </a>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Oaxaca de Juárez · Cocina de Origen &amp; Hospitalidad Oaxaqueña
+      </p>
+</div>
+</section>
+</div>
+<script>
+  function showConfirmation() {
+    const form = document.getElementById('reservation-form');
+    const msg = document.getElementById('confirmation-msg');
+    if (form && msg) {
+      form.classList.add('hidden');
+      msg.classList.remove('hidden');
+    }
+  }
+
+  // Interactive gallery filters
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.gallery-filter-btn');
+    const items = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const cat = btn.getAttribute('data-cat');
+
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        });
+
+        btn.classList.add('bg-primary', 'text-on-primary');
+        btn.classList.remove('bg-surface-container', 'text-on-surface');
+
+        items.forEach(item => {
+          if (cat === 'all' || item.getAttribute('data-cat') === cat) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+</script></main></body></html>
